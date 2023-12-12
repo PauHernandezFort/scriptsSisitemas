@@ -2,7 +2,7 @@
 
     echo " pon un numero"
     read num
-    if [ "$num" -gt 0 ] 2>; then
+    if [ "$num" -gt 0 ]; then
     contador=0
     while [ $contador -le $num ]; do
         echo $contador
